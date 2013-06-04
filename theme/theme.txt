@@ -1,0 +1,117 @@
+# GUI - STATUS
+status.notice.fgcolor = #002325
+status.notice.bgcolor = #404040
+status.error.fgcolor = #ffffff
+status.error.bgcolor = #e34c00
+status.edit.fgcolor = #000000
+status.edit.bgcolor = #f1b500
+status.font = SansSerif,plain,12
+#status.font.macosx = Helvetica,plain,12
+
+# GUI - TABS
+# settings for the tabs at the top
+# (tab images are stored in the lib/theme folder)
+header.bgcolor = #404040
+header.text.selected.color = #323232
+header.text.unselected.color = #3c3c3c
+header.text.font = SansSerif,plain,12
+#header.text.font.macosx = Helvetica,plain,12
+
+# GUI - CONSOLE
+# font is handled by preferences, since size/etc is modifiable
+console.color = #000000
+console.output.color = #eeeeee
+console.error.color = #e34c00
+
+# GUI - BUTTONS
+buttons.bgcolor = #505050
+buttons.status.font = SansSerif,plain,12
+#buttons.status.font.macosx = Helvetica,plain,12
+buttons.status.color = #ffffff
+
+# GUI - MODE
+#mode.button.bgcolor = #505050
+mode.button.font = SansSerif,plain,9
+#mode.button.font.macosx = Helvetica,plain,9
+#mode.button.color = #4a545e
+mode.button.color = #9ca6b0
+
+# GUI - LINESTATUS
+linestatus.color = #ffffff
+linestatus.bgcolor = #404040
+
+# EDITOR - DETAILS
+
+# foreground and background colors
+editor.fgcolor = #ffffff
+editor.bgcolor = #222222
+
+# highlight for the current line
+editor.linehighlight.color=#404040
+# highlight for the current line
+editor.linehighlight=true
+
+# caret blinking and caret color
+editor.caret.color = #888888
+
+# color to be used for background when 'external editor' enabled
+editor.external.bgcolor = #c8d2dc
+
+# selection color
+editor.selection.color = #775500
+
+# area that's not in use by the text (replaced with tildes)
+editor.invalid.style = #e34c00,bold
+
+# little pooties at the end of lines that show where they finish
+editor.eolmarkers = false
+editor.eolmarkers.color = #444444
+
+# bracket/brace highlighting
+editor.brackethighlight = true
+editor.brackethighlight.color = #cc9900
+
+
+# TEXT - KEYWORDS
+
+# e.g. Functions 
+editor.function1.style = #ddaa00,plain
+
+# e.g. Methods (functions inside a class)
+editor.function2.style = #ff0000,plain
+
+# e.g. Datatypes and keywords (void, int, boolean, etc.)
+editor.keyword1.style = #ff5500,plain
+
+# e.g. Processing fields [variables within a class]
+editor.keyword2.style = #ff5500,plain
+
+# e.g. Processing variables (width, height, focused, etc.)
+editor.keyword3.style = #288ab5,plain
+
+
+# TEXT - LITERALS
+
+# e.g. Strings (text in quotes)
+editor.literal1.style = #ff0000,plain
+
+# e.g. Constants (QUARTER_PI, CORNERS, etc.)
+editor.literal2.style = #288ab5,plain
+
+# e.g. + - = /
+editor.operator.style = #888888,plain
+
+# ?? maybe this is for words followed by a colon
+# like in case statements or goto
+editor.label.style = #7e7e7e,bold
+
+
+# TEXT - COMMENTS
+editor.comment1.style = #92b532,plain
+editor.comment2.style = #92b532,plain
+
+
+# LINE STATUS - editor line number status bar at the bottom of the screen
+linestatus.font = SansSerif,plain,10
+#linestatus.font.macosx = Helvetica,plain,10
+linestatus.height  = 20
