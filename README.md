@@ -3,7 +3,7 @@
 Dark Processing Theme (for 2.0)
 ===================
 
-A dark theme for the Processing IDE (a little easier on the eyes!) for Processing 2.0 - for a Processing 1.5 theme, see (this repository)[].
+A dark theme for the Processing IDE (a little easier on the eyes!) for Processing 2.0 - for a Processing 1.5 theme, see [this repository](https://github.com/jeffThompson/DarkProcessingTheme).
 
 \- \- \-
 
