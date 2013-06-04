@@ -13,7 +13,7 @@ status.font = SansSerif,plain,12
 # (tab images are stored in the lib/theme folder)
 header.bgcolor = #404040
 header.text.selected.color = #323232
-header.text.unselected.color = #3c3c3c
+header.text.unselected.color = #ffffff
 header.text.font = SansSerif,plain,12
 #header.text.font.macosx = Helvetica,plain,12
 
