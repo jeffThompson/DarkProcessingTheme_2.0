@@ -5,6 +5,11 @@ Dark Processing Theme (for 2.0)
 
 A dark theme for the Processing IDE (a little easier on the eyes!) for Processing 2.0 - for a Processing 1.5 theme, see [this repository](https://github.com/jeffThompson/DarkProcessingTheme).
 
+A few changes in how themes are handled in 2.0:
+1. The default theme is located in the main Processing app (on the Mac it's in `~/Applications/Processing.app/Contents/Resources/Java/lib/theme.txt` - a separate `theme.txt` file for each mode will selectively override items from this default.
+2. In 1.5x Processing used image files for tabs, etc. As of 2.0 this is handled dynamically, so we can easily change tab color in the theme file.
+3. The Android mode has an `icons` folder, where you can change the default app icon (very nice!)
+
 \- \- \-
 
 ####INSTALLATION
